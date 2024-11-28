@@ -1,0 +1,2107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>RCV-AL</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="rcv.js"></script>
+    </head>
+    <body>
+        <h1>RCV-AL</h1>
+            <h2>Ranked Choice Voting in Alabama</h2>
+
+                <hr>
+
+                <h3>What is Ranked Choice Voting?</h3>
+                    <p>
+                        Ranked Choice Voting (RCV) is a method of voting in which a voter ranks the candidates in order of preference. 
+                        When the votes are tallied, if no candidate received a majority of the votes (more than 50%), 
+                        then the candidate with the fewest votes is eliminated. 
+                        Any ballot cast for the eliminated candidate is then cast as a vote for the next ranked choice. 
+                        The process continues until a candidate has a majority of the votes. 
+                        In this way, RCV essentially picks out a series of losers until a victor emerges. 
+                        Studies have found that RCV raises support for elected officials, diversity of candidates, 
+                        and votes for third party candidates. 
+                    </p>
+                    <p>
+                        <a id="info_button" href="https://fairvote.org/our-reforms/ranked-choice-voting/" target="_blank">
+                            Click Here
+                        </a>
+                        for more information about Ranked Choice Voting.
+                    </p>
+                
+                <h3>Where is RCV in Alabama?</h3>
+                    <p>
+                        Unfortunately, as of October, 2024, the use of Ranked Choice Voting as a voting method is illegal in Alabama under Sections 11-46-10 and 17-1-6 
+                        of the Code of Alabama 1975. Subsection A of 17-1-6 reads as follows:
+                    </p>
+                    <p>
+                        <i>"Ranked-choice voting shall not be used in determining the election or nomination of any candidate to any local, state, or federal office."</i>
+                    </p>
+                    <p>
+                        This ammendment has cut off the most well proven route to RCV adoption: local government. Typically, it would be easier, more immediately impactful, 
+                        and practical to support RCV in your local community rather than attempt to jump to statewide adoption. I believe this is still true, but the difficult 
+                        truth is that pushing for RCV's implementation at all is currently off the table in Alabama. First, this state-level ban must be repealed.
+                    </p>
+                <h3>How to Reverse the RCV Ban</h3>
+                    <p>
+                        There is some good news: The same method used to ban RCV can be used to unban it as well. The state legislature can repeal the ban just as easily 
+                        as they passed it, but they will not do so without their constituents speaking up. On this page, I have included resources for finding your 
+                        state senator and state representative. I sincerely wish I could link you to an organized movement in Alabama, but I'm afraid I can't. 
+                        Better Ballot Alabama, the Alabama branch of a movement for the adoption of RCV has been inactive since the ban was passed in 2023. 
+                        My hope is that a new organized effort to unban RCV will form over the coming years (It could be you who starts it!), 
+                        but as it stands, all I would be able to offer is a deadlink to Better Ballot Alabama's website and a link to an inactive Facebook page. 
+                        It can be disheartening, but I prefer to look at it as an opportunity. Each and every one of you has the potential to kickstart that new effort. 
+                        When action is difficult, those who act are strong. I encourage you to reach out to your state legislators on the matter. Reach out to friends, family, and colleagues.
+                        Organized action is often the result of impactful unorganized actions.
+                    </p>
+                    <p>
+                        There is another avenue available, however. If the idea of spearheading a new movement feels a bit... much, consider joining a nationwide movement.
+                        As I type this, the US Constitution is still the Supreme Law of the Land, and as such, federal laws overrule state laws. If RCV is protected federally (or maybe even adopted for federal elections),
+                        that will open the gates once more to community-oriented efforts in Alabama. I have included links to a few nationwide organizations which support the adoption of RCV. 
+                        Let this also bolster the main message of this page: you are not alone in this. If you care about making our democracy better, if you care about accurately reflecting the will 
+                        of the people and fostering a healthy spectrum of political ideas: <br>
+                        <b>You are NOT alone</b><br>
+                    </p>
+                <h3>Why Push for RCV instead of *INSERT ISSUE HERE*?</h3>
+                    <p>
+                        The short answer is that this is the wrong question. Alabama is not short on problems, be they social, political, economic, or a mix of the three.
+                        RCV is not a replacement for solving those issues, nor is it intended to be. What RCV provides is a better way to elect people you believe <i>can</i> 
+                        solve them. Democracy is a tool. It must be wielded responsibly and efficiently, and sometimes it needs maintenance. Support for RCV is untethered from 
+                        any specific issue of policy or party. The ban on RCV was voted for along party lines in Alabama, but that seems to me to be more about which party is 
+                        currently in power than any deeper partisan idealogy (The Republican controlled Alaska government adopted RCV statewide). Republicans, Democrats, and Independants 
+                        all benefit from a well-maintained democracy. RCV fosters solutions to issues, but we the people do the solving. It encourages the change that the public already wishes to see. 
+                        If there is another, more specific issue that feels more pressing or personal to you, I wholeheartedly urge you to take the resources below and use them to those ends instead. Or support both!
+                        There will never be a shortage of issues to care about. Find yours and fight for it. Not tomorrow; <b>TODAY</b>.
+                    </p>
+
+                <hr>
+
+                <h3>National Voting Reform Groups</h3>
+                <a href="https://fairvoteaction.org/get-involved/"><img src="fairvote.png" alt="FairVoteAction" width="300" height="300"></a>
+                <a href="https://campaignlegal.org/issues/voting-and-elections"><img src="clc.png" alt="Campaign Legal Center" width="300" height="300"></a>
+                <a href="https://rankthevote.us/"><img src="rtv.jpg" alt="Rank The Vote" width="300" height="300"></a>
+                
+                <hr>
+
+                <h3>How to Find Your Representatives</h3>
+
+                <h4>Alabama State-Level House District Map (As of November, 2022)</h4>
+                    <img src="https://cms.alison.legislature.state.al.us/uploads/2021_Alabama_House_Plan_2d9cfa8502.PNG"><br><br>
+                    <input type="text" id="house_search" onkeyup="SearchHouse()" placeholder="Search by district or county...">
+                    <table class="tg" id="house_table"><thead>
+                        <tr>
+                        <th class="tg-0lax">District</th>
+                        <th class="tg-0lax">County</th>
+                        <th class="tg-0lax">Name</th>
+                        <th class="tg-0lax">Number</th>
+                        <th class="tg-0lax">Email</th>
+                        </tr></thead>
+                    <tbody>
+                        <tr>
+                        <td class="tg-0lax">1</td>
+                        <td class="tg-0lax">Lauderdale</td>
+                        <td class="tg-0lax">Phillip Pettus</td>
+                        <td class="tg-0lax">(334)261-0591</td>
+                        <td class="tg-0lax"><a href="mailto:phillip.pettus@alhouse.gov">phillip.pettus@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">2</td>
+                        <td class="tg-0lax">Lauderdale</td>
+                        <td class="tg-0lax">Ben Harrison</td>
+                        <td class="tg-0lax">(334)261-0476</td>
+                        <td class="tg-0lax"><a href="mailto:votebenharrison@gmail.com">votebenharrison@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">2</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Ben Harrison</td>
+                        <td class="tg-0lax">(334)261-0476</td>
+                        <td class="tg-0lax"><a href="mailto:votebenharrison@gmail.com">votebenharrison@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax">Colbert</td>
+                        <td class="tg-0lax">Kerry Underwood</td>
+                        <td class="tg-0lax">(334)261-0435</td>
+                        <td class="tg-0lax"><a href="mailto:kerryucpa@me.com">kerryucpa@me.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax">Lauderdale</td>
+                        <td class="tg-0lax">Kerry Underwood</td>
+                        <td class="tg-0lax">(334)261-0435</td>
+                        <td class="tg-0lax"><a href="mailto:kerryucpa@me.com">kerryucpa@me.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Parker Moore</td>
+                        <td class="tg-0lax">(334)261-0579</td>
+                        <td class="tg-0lax"><a href="mailto:parker.moore@alhouse.gov">parker.moore@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Parker Moore</td>
+                        <td class="tg-0lax">(334)261-0579</td>
+                        <td class="tg-0lax"><a href="mailto:parker.moore@alhouse.gov">parker.moore@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Morgan</td>
+                        <td class="tg-0lax">Parker Moore</td>
+                        <td class="tg-0lax">(334)261-0579</td>
+                        <td class="tg-0lax"><a href="mailto:parker.moore@alhouse.gov">parker.moore@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Danny Crawford</td>
+                        <td class="tg-0lax">(334)261-0516</td>
+                        <td class="tg-0lax"><a href="mailto:Danny.F.Crawford@gmail.com">Danny.F.Crawford@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Andy Whitt</td>
+                        <td class="tg-0lax">(334)261-0404</td>
+                        <td class="tg-0lax"><a href="mailto:andy.whitt@alhouse.gov">andy.whitt@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Andy Whitt</td>
+                        <td class="tg-0lax">(334)261-0404</td>
+                        <td class="tg-0lax"><a href="mailto:andy.whitt@alhouse.gov">andy.whitt@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">7</td>
+                        <td class="tg-0lax">Colbert</td>
+                        <td class="tg-0lax">Ernie Yarbrough</td>
+                        <td class="tg-0lax">(334)261-0454</td>
+                        <td class="tg-0lax"><a href="mailto:yarbrough4house@gmail.com">yarbrough4house@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">7</td>
+                        <td class="tg-0lax">Lawrence</td>
+                        <td class="tg-0lax">Ernie Yarbrough</td>
+                        <td class="tg-0lax">(334)261-0454</td>
+                        <td class="tg-0lax"><a href="mailto:yarbrough4house@gmail.com">yarbrough4house@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">7</td>
+                        <td class="tg-0lax">Morgan</td>
+                        <td class="tg-0lax">Ernie Yarbrough</td>
+                        <td class="tg-0lax">(334)261-0454</td>
+                        <td class="tg-0lax"><a href="mailto:yarbrough4house@gmail.com">yarbrough4house@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">8</td>
+                        <td class="tg-0lax">Morgan</td>
+                        <td class="tg-0lax">Terri Collins</td>
+                        <td class="tg-0lax">(334)261-0472</td>
+                        <td class="tg-0lax"><a href="mailto:terri@terricollins.org">terri@terricollins.org</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">9</td>
+                        <td class="tg-0lax">Morgan</td>
+                        <td class="tg-0lax">Scott Stadhagen</td>
+                        <td class="tg-0lax">(334)261-9506</td>
+                        <td class="tg-0lax"><a href="mailto:alhouseleader@gmail.com">alhouseleader@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">10</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Marilyn Lands</td>
+                        <td class="tg-0lax">(334)261-0483</td>
+                        <td class="tg-0lax"><a href="mailto:marilyn.lands@alhouse.gov">marilyn.lands@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">11</td>
+                        <td class="tg-0lax">Blount</td>
+                        <td class="tg-0lax">Randall Shedd</td>
+                        <td class="tg-0lax">(334)261-0530</td>
+                        <td class="tg-0lax"><a href="mailto:randall.shedd@alhouse.gov">randall.shedd@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">11</td>
+                        <td class="tg-0lax">Cullman</td>
+                        <td class="tg-0lax">Randall Shedd</td>
+                        <td class="tg-0lax">(334)261-0530</td>
+                        <td class="tg-0lax"><a href="mailto:randall.shedd@alhouse.gov">randall.shedd@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">12</td>
+                        <td class="tg-0lax">Cullman</td>
+                        <td class="tg-0lax">Corey Harbison</td>
+                        <td class="tg-0lax">(334)261-0578</td>
+                        <td class="tg-0lax"><a href="mailto:corey_harbison@yahoo.com">corey_harbison@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Walker</td>
+                        <td class="tg-0lax">Matt Woods</td>
+                        <td class="tg-0lax">(334)261-0495</td>
+                        <td class="tg-0lax"><a href="mailto:matt.woods@alhouse.gov">matt.woods@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Winston</td>
+                        <td class="tg-0lax">Tim Wadsworth</td>
+                        <td class="tg-0lax">(205)300-4008</td>
+                        <td class="tg-0lax"><a href="mailto:wadsworth.tim654321@gmail.com">wadsworth.tim654321@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Walker</td>
+                        <td class="tg-0lax">Tim Wadsworth</td>
+                        <td class="tg-0lax">(205)300-4008</td>
+                        <td class="tg-0lax"><a href="mailto:wadsworth.tim654321@gmail.com">wadsworth.tim654321@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Cullman</td>
+                        <td class="tg-0lax">Tim Wadsworth</td>
+                        <td class="tg-0lax">(205)300-4008</td>
+                        <td class="tg-0lax"><a href="mailto:wadsworth.tim654321@gmail.com">wadsworth.tim654321@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Tim Wadsworth</td>
+                        <td class="tg-0lax">(205)300-4008</td>
+                        <td class="tg-0lax"><a href="mailto:wadsworth.tim654321@gmail.com">wadsworth.tim654321@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">15</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Leigh Hulsey</td>
+                        <td class="tg-0lax">(334)261-0474</td>
+                        <td class="tg-0lax"><a href="mailto:leigh.hulsey@alhouse.gov">leigh.hulsey@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">15</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Leigh Hulsey</td>
+                        <td class="tg-0lax">(334)261-0474</td>
+                        <td class="tg-0lax"><a href="mailto:leigh.hulsey@alhouse.gov">leigh.hulsey@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">16</td>
+                        <td class="tg-0lax">Fayette</td>
+                        <td class="tg-0lax">Bryan Brinyark</td>
+                        <td class="tg-0lax">(334)261-0482</td>
+                        <td class="tg-0lax"><a href="mailto:bryan.brinyark@alhouse.gov">bryan.brinyark@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">16</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Bryan Brinyark</td>
+                        <td class="tg-0lax">(334)261-0482</td>
+                        <td class="tg-0lax"><a href="mailto:bryan.brinyark@alhouse.gov">bryan.brinyark@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">16</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Bryan Brinyark</td>
+                        <td class="tg-0lax">(334)261-0482</td>
+                        <td class="tg-0lax"><a href="mailto:bryan.brinyark@alhouse.gov">bryan.brinyark@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">Lamar</td>
+                        <td class="tg-0lax">Tracy Estes</td>
+                        <td class="tg-0lax">(334)261-0434</td>
+                        <td class="tg-0lax"><a href="mailto:jtracyestes@gmail.com">jtracyestes@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">Marion</td>
+                        <td class="tg-0lax">Tracy Estes</td>
+                        <td class="tg-0lax">(334)261-0434</td>
+                        <td class="tg-0lax"><a href="mailto:jtracyestes@gmail.com">jtracyestes@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">Winston</td>
+                        <td class="tg-0lax">Tracy Estes</td>
+                        <td class="tg-0lax">(334)261-0434</td>
+                        <td class="tg-0lax"><a href="mailto:jtracyestes@gmail.com">jtracyestes@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">18</td>
+                        <td class="tg-0lax">Colbert</td>
+                        <td class="tg-0lax">Jamie Kiel</td>
+                        <td class="tg-0lax">(334)261-0521</td>
+                        <td class="tg-0lax"><a href="mailto:jamie.kiel@alhouse.gov">jamie.kiel@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">18</td>
+                        <td class="tg-0lax">Franklin</td>
+                        <td class="tg-0lax">Jamie Kiel</td>
+                        <td class="tg-0lax">(334)261-0521</td>
+                        <td class="tg-0lax"><a href="mailto:jamie.kiel@alhouse.gov">jamie.kiel@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">19</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Laura Hall</td>
+                        <td class="tg-0lax">(334)261-0517</td>
+                        <td class="tg-0lax"><a href="mailto:annihall19@gmail.com">annihall19@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">20</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">James Lomax</td>
+                        <td class="tg-0lax">(334)261-0444</td>
+                        <td class="tg-0lax"><a href="mailto:jamesoliverlomax@gmail.com">jamesoliverlomax@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">21</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Rex Reynolds</td>
+                        <td class="tg-0lax">(334)261-0571</td>
+                        <td class="tg-0lax"><a href="mailto:reynoldsdist21@gmail.com">reynoldsdist21@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Jackson</td>
+                        <td class="tg-0lax">Ritchie Whorton</td>
+                        <td class="tg-0lax">(334)261-0553</td>
+                        <td class="tg-0lax"><a href="mailto:ritchiewhorton@gmail.com">ritchiewhorton@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Ritchie Whorton</td>
+                        <td class="tg-0lax">(334)261-0553</td>
+                        <td class="tg-0lax"><a href="mailto:ritchiewhorton@gmail.com">ritchiewhorton@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Jackson</td>
+                        <td class="tg-0lax">Mike Kirkland</td>
+                        <td class="tg-0lax">(334)261-0551</td>
+                        <td class="tg-0lax"><a href="mailto:kirklandmike75@gmail.com">kirklandmike75@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">DeKalb</td>
+                        <td class="tg-0lax">Nathanial Ledbetter</td>
+                        <td class="tg-0lax">(334)261-0505</td>
+                        <td class="tg-0lax"><a href="mailto:nathaniel.ledbetter@alhouse.gov">nathaniel.ledbetter@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">25</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Phillip Rigsby</td>
+                        <td class="tg-0lax">(334)261-0514</td>
+                        <td class="tg-0lax"><a href="mailto:reprigsbydistrict25@gmail.com">reprigsbydistrict25@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">25</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Phillip Rigsby</td>
+                        <td class="tg-0lax">(334)261-0514</td>
+                        <td class="tg-0lax"><a href="mailto:reprigsbydistrict25@gmail.com">reprigsbydistrict25@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">26</td>
+                        <td class="tg-0lax">Marshall</td>
+                        <td class="tg-0lax">Brock Calvin</td>
+                        <td class="tg-0lax">(334)261-0438</td>
+                        <td class="tg-0lax"><a href="mailto:brock.colvin@alhouse.gov">brock.colvin@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">27</td>
+                        <td class="tg-0lax">Marshall</td>
+                        <td class="tg-0lax">Jeana Ross</td>
+                        <td class="tg-0lax">(334)261-0539</td>
+                        <td class="tg-0lax"><a href="mailto:jeana.ross@alhouse.gov">jeana.ross@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Etowah</td>
+                        <td class="tg-0lax">Mack Butler</td>
+                        <td class="tg-0lax">(334)261-0490</td>
+                        <td class="tg-0lax"><a href="mailto:mack.butler@alhouse.gov">mack.butler@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">29</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Mark Gidley</td>
+                        <td class="tg-0lax">(334)261-0432</td>
+                        <td class="tg-0lax"><a href="mailto:mark.gidley@alhouse.gov">mark.gidley@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">29</td>
+                        <td class="tg-0lax">Etowah</td>
+                        <td class="tg-0lax">Mark Gidley</td>
+                        <td class="tg-0lax">(334)261-0432</td>
+                        <td class="tg-0lax"><a href="mailto:mark.gidley@alhouse.gov">mark.gidley@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Etowah</td>
+                        <td class="tg-0lax">Craig Lipscomb</td>
+                        <td class="tg-0lax">(334)261-0546</td>
+                        <td class="tg-0lax"><a href="mailto:info@craiglipscomb.com">info@craiglipscomb.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Craig Lipscomb</td>
+                        <td class="tg-0lax">(334)261-0546</td>
+                        <td class="tg-0lax"><a href="mailto:info@craiglipscomb.com">info@craiglipscomb.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">31</td>
+                        <td class="tg-0lax">Elmore</td>
+                        <td class="tg-0lax">Troy Stubbs</td>
+                        <td class="tg-0lax">(334)261-0595</td>
+                        <td class="tg-0lax"><a href="mailto:troy.stubbs@hotmail.com">troy.stubbs@hotmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">32</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Barbara Boyd</td>
+                        <td class="tg-0lax">(334)261-0592</td>
+                        <td class="tg-0lax"><a href="mailto:barbara.boyd@alhouse.gov">barbara.boyd@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">32</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Barbara Boyd</td>
+                        <td class="tg-0lax">(334)261-0592</td>
+                        <td class="tg-0lax"><a href="mailto:barbara.boyd@alhouse.gov">barbara.boyd@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">33</td>
+                        <td class="tg-0lax">Coosa</td>
+                        <td class="tg-0lax">Ben Robbins</td>
+                        <td class="tg-0lax">(334)261-0477</td>
+                        <td class="tg-0lax"><a href="mailto:ben.robbins@alhouse.gov">ben.robbins@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">33</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Ben Robbins</td>
+                        <td class="tg-0lax">(334)261-0477</td>
+                        <td class="tg-0lax"><a href="mailto:ben.robbins@alhouse.gov">ben.robbins@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">34</td>
+                        <td class="tg-0lax">Blount</td>
+                        <td class="tg-0lax">David Standridge</td>
+                        <td class="tg-0lax">(334)261-0446</td>
+                        <td class="tg-0lax"><a href="mailto:david.standridge@alhouse.gov">david.standridge@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">35</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Steve Hurst</td>
+                        <td class="tg-0lax">(334)261-0415</td>
+                        <td class="tg-0lax"><a href="mailto:repstevehurst98@gmail.com">repstevehurst98@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">35</td>
+                        <td class="tg-0lax">Clay</td>
+                        <td class="tg-0lax">Steve Hurst</td>
+                        <td class="tg-0lax">(334)261-0415</td>
+                        <td class="tg-0lax"><a href="mailto:repstevehurst98@gmail.com">repstevehurst98@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">35</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Steve Hurst</td>
+                        <td class="tg-0lax">(334)261-0415</td>
+                        <td class="tg-0lax"><a href="mailto:repstevehurst98@gmail.com">repstevehurst98@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">36</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Randy Wood</td>
+                        <td class="tg-0lax">(334)261-0552</td>
+                        <td class="tg-0lax"><a href="mailto:strep36@gmail.com">strep36@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">36</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Randy Wood</td>
+                        <td class="tg-0lax">(334)261-0552</td>
+                        <td class="tg-0lax"><a href="mailto:strep36@gmail.com">strep36@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">36</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Randy Wood</td>
+                        <td class="tg-0lax">(334)261-0552</td>
+                        <td class="tg-0lax"><a href="mailto:strep36@gmail.com">strep36@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">37</td>
+                        <td class="tg-0lax">Chambers</td>
+                        <td class="tg-0lax">Bob Fincher</td>
+                        <td class="tg-0lax">(334)261-0538</td>
+                        <td class="tg-0lax"><a href="mailto:rsfincher77@gmail.com">rsfincher77@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">37</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Bob Fincher</td>
+                        <td class="tg-0lax">(334)261-0538</td>
+                        <td class="tg-0lax"><a href="mailto:rsfincher77@gmail.com">rsfincher77@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">37</td>
+                        <td class="tg-0lax">Randolph</td>
+                        <td class="tg-0lax">Bob Fincher</td>
+                        <td class="tg-0lax">(334)261-0538</td>
+                        <td class="tg-0lax"><a href="mailto:rsfincher77@gmail.com">rsfincher77@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">38</td>
+                        <td class="tg-0lax">Chambers</td>
+                        <td class="tg-0lax">Debbie Wood</td>
+                        <td class="tg-0lax">(334)261-0532</td>
+                        <td class="tg-0lax"><a href="mailto:debbie.wood@alhouse.gov">debbie.wood@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">38</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Debbie Wood</td>
+                        <td class="tg-0lax">(334)261-0532</td>
+                        <td class="tg-0lax"><a href="mailto:debbie.wood@alhouse.gov">debbie.wood@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">39</td>
+                        <td class="tg-0lax">Cherokee</td>
+                        <td class="tg-0lax">Ginny Shaver</td>
+                        <td class="tg-0lax">(334)261-0413</td>
+                        <td class="tg-0lax"><a href="mailto:ginny.shaver@alhouse.gov">ginny.shaver@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">39</td>
+                        <td class="tg-0lax">DeKalb</td>
+                        <td class="tg-0lax">Ginny Shaver</td>
+                        <td class="tg-0lax">(334)261-0413</td>
+                        <td class="tg-0lax"><a href="mailto:ginny.shaver@alhouse.gov">ginny.shaver@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">40</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Chad Robertson</td>
+                        <td class="tg-0lax">(334)261-0496</td>
+                        <td class="tg-0lax"><a href="mailto:ChadrobertsonD40@gmail.com">ChadrobertsonD40@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">40</td>
+                        <td class="tg-0lax">Cleburne</td>
+                        <td class="tg-0lax">Chad Robertson</td>
+                        <td class="tg-0lax">(334)261-0496</td>
+                        <td class="tg-0lax"><a href="mailto:ChadrobertsonD40@gmail.com">ChadrobertsonD40@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">41</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Corley Ellis</td>
+                        <td class="tg-0lax">(334)261-0560</td>
+                        <td class="tg-0lax"><a href="mailto:corley.ellis@alhouse.gov">corley.ellis@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">42</td>
+                        <td class="tg-0lax">Autauga</td>
+                        <td class="tg-0lax">Ivan Smith</td>
+                        <td class="tg-0lax">(334)261-0459</td>
+                        <td class="tg-0lax"><a href="mailto:vansmith53@gmail.com">vansmith53@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">42</td>
+                        <td class="tg-0lax">Chilton</td>
+                        <td class="tg-0lax">Ivan Smith</td>
+                        <td class="tg-0lax">(334)261-0459</td>
+                        <td class="tg-0lax"><a href="mailto:vansmith53@gmail.com">vansmith53@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">43</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Arnold Mooney</td>
+                        <td class="tg-0lax">(334)261-9512</td>
+                        <td class="tg-0lax"><a href="mailto:arnold.mooney@alhouse.gov">arnold.mooney@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">44</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Danny Garrett</td>
+                        <td class="tg-0lax">(334)261-0524</td>
+                        <td class="tg-0lax"><a href="mailto:dannygarrett44@gmail.com">dannygarrett44@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">45</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Susan Debose</td>
+                        <td class="tg-0lax">(334)261-0527</td>
+                        <td class="tg-0lax"><a href="mailto:susan.dubose@alhouse.gov">susan.dubose@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">45</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Susan Debose</td>
+                        <td class="tg-0lax">(334)261-0527</td>
+                        <td class="tg-0lax"><a href="mailto:susan.dubose@alhouse.gov">susan.dubose@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">45</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Susan Debose</td>
+                        <td class="tg-0lax">(334)261-0527</td>
+                        <td class="tg-0lax"><a href="mailto:susan.dubose@alhouse.gov">susan.dubose@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">46</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">David Faulkner</td>
+                        <td class="tg-0lax">(334)261-0442</td>
+                        <td class="tg-0lax"><a href="mailto:David@DavidFaulknerAL46.com">David@DavidFaulknerAL46.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">47</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Mike Shaw</td>
+                        <td class="tg-0lax">(334)261-0439</td>
+                        <td class="tg-0lax"><a href="mailto:mike.shaw@alabama47.com">mike.shaw@alabama47.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">48</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Jim Carns</td>
+                        <td class="tg-0lax">(334)261-0429</td>
+                        <td class="tg-0lax"><a href="mailto:jwcarns@gmail.com">jwcarns@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">48</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Jim Carns</td>
+                        <td class="tg-0lax">(334)261-0429</td>
+                        <td class="tg-0lax"><a href="mailto:jwcarns@gmail.com">jwcarns@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">49</td>
+                        <td class="tg-0lax">Bibb</td>
+                        <td class="tg-0lax">Russell Bedsole</td>
+                        <td class="tg-0lax">(334)261-0491</td>
+                        <td class="tg-0lax"><a href="mailto:russell.bedsole@alhouse.gov">russell.bedsole@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">49</td>
+                        <td class="tg-0lax">Chilton</td>
+                        <td class="tg-0lax">Russell Bedsole</td>
+                        <td class="tg-0lax">(334)261-0491</td>
+                        <td class="tg-0lax"><a href="mailto:russell.bedsole@alhouse.gov">russell.bedsole@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">49</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Russell Bedsole</td>
+                        <td class="tg-0lax">(334)261-0491</td>
+                        <td class="tg-0lax"><a href="mailto:russell.bedsole@alhouse.gov">russell.bedsole@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">50</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Jim Hall</td>
+                        <td class="tg-0lax">(334)261-0494</td>
+                        <td class="tg-0lax"><a href="mailto:jim.hill@alhouse.gov">jim.hill@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">51</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Allen Treadway</td>
+                        <td class="tg-0lax">(334)261-0585</td>
+                        <td class="tg-0lax"><a href="mailto:allen.treadaway@alhouse.gov">allen.treadaway@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">52</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Kelvin Datcher</td>
+                        <td class="tg-0lax">(334)261-0387</td>
+                        <td class="tg-0lax"><a href="mailto:kelvin.datcher@alhouse.gov">kelvin.datcher@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">53</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Anthony Daniels</td>
+                        <td class="tg-0lax">(334)261-0522</td>
+                        <td class="tg-0lax"><a href="mailto:anthony.daniels@alhouse.gov">anthony.daniels@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">54</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Neil Rafferty</td>
+                        <td class="tg-0lax">(334)261-0543</td>
+                        <td class="tg-0lax"><a href="mailto:reprafferty@gmail.com">reprafferty@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">55</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Travis Hendrix</td>
+                        <td class="tg-0lax">(334)261-0452</td>
+                        <td class="tg-0lax"><a href="mailto:hendrixfor55@gmail.com">hendrixfor55@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">56</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Ontario Tillman</td>
+                        <td class="tg-0lax">(334)261-0529</td>
+                        <td class="tg-0lax"><a href="mailto:ojtillman@gmail.com">ojtillman@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">57</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Patrick Sellers</td>
+                        <td class="tg-0lax">(334)261-0589</td>
+                        <td class="tg-0lax"><a href="mailto:sellersfor57@yahoo.com">sellersfor57@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">58</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Rolanda Hollis</td>
+                        <td class="tg-0lax">(334)261-9520</td>
+                        <td class="tg-0lax"><a href="mailto:rolanda.hollis@alhouse.gov">rolanda.hollis@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">59</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Mary Moore</td>
+                        <td class="tg-0lax">(334)261-0508</td>
+                        <td class="tg-0lax"><a href="mailto:mamoor48@bellsouth.net">mamoor48@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">60</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Jaundalynn Givan</td>
+                        <td class="tg-0lax">(334)261-0584</td>
+                        <td class="tg-0lax"><a href="mailto:juandalynn@givanlaw.com">juandalynn@givanlaw.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">61</td>
+                        <td class="tg-0lax">Pickens</td>
+                        <td class="tg-0lax">Ron Bolton</td>
+                        <td class="tg-0lax">(334)261-0403</td>
+                        <td class="tg-0lax"><a href="mailto:ronaldbolton1@gmail.com">ronaldbolton1@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">61</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Ron Bolton</td>
+                        <td class="tg-0lax">(334)261-0403</td>
+                        <td class="tg-0lax"><a href="mailto:ronaldbolton1@gmail.com">ronaldbolton1@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">62</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Bill Lamb</td>
+                        <td class="tg-0lax">(334)261-0481</td>
+                        <td class="tg-0lax"><a href="mailto:lambbama@gmail.com">lambbama@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">63</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Cynthia Almond</td>
+                        <td class="tg-0lax">(334)261-0558</td>
+                        <td class="tg-0lax"><a href="mailto:cynthia.almond@alhouse.gov">cynthia.almond@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">64</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Donna Givens</td>
+                        <td class="tg-0lax">(334)261-0445</td>
+                        <td class="tg-0lax"><a href="mailto:donnagivens64@gmail.com">donnagivens64@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">65</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Brett Easterbrook</td>
+                        <td class="tg-0lax">(334)261-0402</td>
+                        <td class="tg-0lax"><a href="mailto:brett.easterbrook@yahoo.com">brett.easterbrook@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">65</td>
+                        <td class="tg-0lax">Choctaw</td>
+                        <td class="tg-0lax">Brett Easterbrook</td>
+                        <td class="tg-0lax">(334)261-0402</td>
+                        <td class="tg-0lax"><a href="mailto:brett.easterbrook@yahoo.com">brett.easterbrook@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">65</td>
+                        <td class="tg-0lax">Clarke</td>
+                        <td class="tg-0lax">Brett Easterbrook</td>
+                        <td class="tg-0lax">(334)261-0402</td>
+                        <td class="tg-0lax"><a href="mailto:brett.easterbrook@yahoo.com">brett.easterbrook@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">65</td>
+                        <td class="tg-0lax">Washington</td>
+                        <td class="tg-0lax">Brett Easterbrook</td>
+                        <td class="tg-0lax">(334)261-0402</td>
+                        <td class="tg-0lax"><a href="mailto:brett.easterbrook@yahoo.com">brett.easterbrook@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">66</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Alan Baker</td>
+                        <td class="tg-0lax">(334)261-0420</td>
+                        <td class="tg-0lax"><a href="mailto:staterep@co.escambia.al.us">staterep@co.escambia.al.us</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">66</td>
+                        <td class="tg-0lax">Escambia</td>
+                        <td class="tg-0lax">Alan Baker</td>
+                        <td class="tg-0lax">(334)261-0420</td>
+                        <td class="tg-0lax"><a href="mailto:staterep@co.escambia.al.us">staterep@co.escambia.al.us</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">67</td>
+                        <td class="tg-0lax">Dallas</td>
+                        <td class="tg-0lax">Prince Chesnut</td>
+                        <td class="tg-0lax">(334)261-0598</td>
+                        <td class="tg-0lax"><a href="mailto:chestnut4house@gmail.com">chestnut4house@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">67</td>
+                        <td class="tg-0lax">Perry</td>
+                        <td class="tg-0lax">Prince Chesnut</td>
+                        <td class="tg-0lax">(334)261-0598</td>
+                        <td class="tg-0lax"><a href="mailto:chestnut4house@gmail.com">chestnut4house@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Clarke</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Conecuh</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Marengo</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Monroe</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Perry</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">68</td>
+                        <td class="tg-0lax">Wilcox</td>
+                        <td class="tg-0lax">Thomas Jackson</td>
+                        <td class="tg-0lax">(334)261-0437</td>
+                        <td class="tg-0lax"><a href="mailto:jthomase68@gmail.com">jthomase68@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">69</td>
+                        <td class="tg-0lax">Autauga</td>
+                        <td class="tg-0lax">Kelvin Lawrence</td>
+                        <td class="tg-0lax">(334)261-0536</td>
+                        <td class="tg-0lax"><a href="mailto:kelvinj73@gmail.com">kelvinj73@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">69</td>
+                        <td class="tg-0lax">Lowndes</td>
+                        <td class="tg-0lax">Kelvin Lawrence</td>
+                        <td class="tg-0lax">(334)261-0536</td>
+                        <td class="tg-0lax"><a href="mailto:kelvinj73@gmail.com">kelvinj73@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">69</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Kelvin Lawrence</td>
+                        <td class="tg-0lax">(334)261-0536</td>
+                        <td class="tg-0lax"><a href="mailto:kelvinj73@gmail.com">kelvinj73@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">69</td>
+                        <td class="tg-0lax">Wilcox</td>
+                        <td class="tg-0lax">Kelvin Lawrence</td>
+                        <td class="tg-0lax">(334)261-0536</td>
+                        <td class="tg-0lax"><a href="mailto:kelvinj73@gmail.com">kelvinj73@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">70</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Chris England</td>
+                        <td class="tg-0lax">(334)261-0503</td>
+                        <td class="tg-0lax"><a href="mailto:cengland1@hotmail.com">cengland1@hotmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">71</td>
+                        <td class="tg-0lax">Marengo</td>
+                        <td class="tg-0lax">Artis 'A.J.' McCampbell</td>
+                        <td class="tg-0lax">(334)261-0547</td>
+                        <td class="tg-0lax"><a href="mailto:acmc1@bellsouth.net">acmc1@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">71</td>
+                        <td class="tg-0lax">Pickens</td>
+                        <td class="tg-0lax">Artis 'A.J.' McCampbell</td>
+                        <td class="tg-0lax">(334)261-0547</td>
+                        <td class="tg-0lax"><a href="mailto:acmc1@bellsouth.net">acmc1@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">71</td>
+                        <td class="tg-0lax">Sumter</td>
+                        <td class="tg-0lax">Artis 'A.J.' McCampbell</td>
+                        <td class="tg-0lax">(334)261-0547</td>
+                        <td class="tg-0lax"><a href="mailto:acmc1@bellsouth.net">acmc1@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">71</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Artis 'A.J.' McCampbell</td>
+                        <td class="tg-0lax">(334)261-0547</td>
+                        <td class="tg-0lax"><a href="mailto:acmc1@bellsouth.net">acmc1@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">72</td>
+                        <td class="tg-0lax">Bibb</td>
+                        <td class="tg-0lax">Curtis Travis</td>
+                        <td class="tg-0lax">(334)261-0559</td>
+                        <td class="tg-0lax"><a href="mailto:cltravis620@charter.net">cltravis620@charter.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">72</td>
+                        <td class="tg-0lax">Greene</td>
+                        <td class="tg-0lax">Curtis Travis</td>
+                        <td class="tg-0lax">(334)261-0559</td>
+                        <td class="tg-0lax"><a href="mailto:cltravis620@charter.net">cltravis620@charter.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">72</td>
+                        <td class="tg-0lax">Hale</td>
+                        <td class="tg-0lax">Curtis Travis</td>
+                        <td class="tg-0lax">(334)261-0559</td>
+                        <td class="tg-0lax"><a href="mailto:cltravis620@charter.net">cltravis620@charter.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">72</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Curtis Travis</td>
+                        <td class="tg-0lax">(334)261-0559</td>
+                        <td class="tg-0lax"><a href="mailto:cltravis620@charter.net">cltravis620@charter.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">73</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Kenneth Paschal</td>
+                        <td class="tg-0lax">(334)261-0469</td>
+                        <td class="tg-0lax"><a href="mailto:kenneth.paschal@alhouse.gov">kenneth.paschal@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">74</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Phillip Ensler</td>
+                        <td class="tg-0lax">(334)261-0569</td>
+                        <td class="tg-0lax"><a href="mailto:phillip.ensler@gmail.com">phillip.ensler@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">75</td>
+                        <td class="tg-0lax">Elmore</td>
+                        <td class="tg-0lax">Reed Ingram</td>
+                        <td class="tg-0lax">(334)261-0507</td>
+                        <td class="tg-0lax"><a href="mailto:reedingram75@gmail.com">reedingram75@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">75</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Reed Ingram</td>
+                        <td class="tg-0lax">(334)261-0507</td>
+                        <td class="tg-0lax"><a href="mailto:reedingram75@gmail.com">reedingram75@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">76</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Patrice McClammy</td>
+                        <td class="tg-0lax">(334)261-0580</td>
+                        <td class="tg-0lax"><a href="mailto:patrice.mcclammy@alhouse.gov">patrice.mcclammy@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">77</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">TaShina Morris</td>
+                        <td class="tg-0lax">(334)261-0597</td>
+                        <td class="tg-0lax"><a href="mailto:tashinamorris1@yahoo.com">tashinamorris1@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">78</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Kenyatté Hassell</td>
+                        <td class="tg-0lax">(334)261-0506</td>
+                        <td class="tg-0lax"><a href="mailto:ken.hassell@alhouse.gov">ken.hassell@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">79</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Joe Lovvorn</td>
+                        <td class="tg-0lax">(334)261-0540</td>
+                        <td class="tg-0lax"><a href="mailto:joe.lovvorn@alhouse.gov">joe.lovvorn@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">80</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Chris Blackshear</td>
+                        <td class="tg-0lax">(334)261-0428</td>
+                        <td class="tg-0lax"><a href="mailto:chris.blackshear@alhouse.gov">chris.blackshear@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">80</td>
+                        <td class="tg-0lax">Russell</td>
+                        <td class="tg-0lax">Chris Blackshear</td>
+                        <td class="tg-0lax">(334)261-0428</td>
+                        <td class="tg-0lax"><a href="mailto:chris.blackshear@alhouse.gov">chris.blackshear@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">81</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Ed Oliver</td>
+                        <td class="tg-0lax">(334)261-0471</td>
+                        <td class="tg-0lax"><a href="mailto:ed.oliver@alhouse.gov">ed.oliver@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">81</td>
+                        <td class="tg-0lax">Tallapoosa</td>
+                        <td class="tg-0lax">Ed Oliver</td>
+                        <td class="tg-0lax">(334)261-0471</td>
+                        <td class="tg-0lax"><a href="mailto:ed.oliver@alhouse.gov">ed.oliver@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">82</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Pebblin W. Warren</td>
+                        <td class="tg-0lax">(334)261-0541</td>
+                        <td class="tg-0lax"><a href="mailto:tiger9127@bellsouth.net">tiger9127@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">82</td>
+                        <td class="tg-0lax">Macon</td>
+                        <td class="tg-0lax">Pebblin W. Warren</td>
+                        <td class="tg-0lax">(334)261-0541</td>
+                        <td class="tg-0lax"><a href="mailto:tiger9127@bellsouth.net">tiger9127@bellsouth.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">83</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Jeremy Gray</td>
+                        <td class="tg-0lax">(334)261-9505</td>
+                        <td class="tg-0lax"><a href="mailto:jeremy.gray@alhouse.gov">jeremy.gray@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">83</td>
+                        <td class="tg-0lax">Russell</td>
+                        <td class="tg-0lax">Jeremy Gray</td>
+                        <td class="tg-0lax">(334)261-9505</td>
+                        <td class="tg-0lax"><a href="mailto:jeremy.gray@alhouse.gov">jeremy.gray@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">84</td>
+                        <td class="tg-0lax">Barbour</td>
+                        <td class="tg-0lax">Berry Forte</td>
+                        <td class="tg-0lax">(334)261-0566</td>
+                        <td class="tg-0lax"><a href="mailto:berry.forte@alhouse.gov">berry.forte@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">84</td>
+                        <td class="tg-0lax">Bullock</td>
+                        <td class="tg-0lax">Berry Forte</td>
+                        <td class="tg-0lax">(334)261-0566</td>
+                        <td class="tg-0lax"><a href="mailto:berry.forte@alhouse.gov">berry.forte@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">84</td>
+                        <td class="tg-0lax">Russell</td>
+                        <td class="tg-0lax">Berry Forte</td>
+                        <td class="tg-0lax">(334)261-0566</td>
+                        <td class="tg-0lax"><a href="mailto:berry.forte@alhouse.gov">berry.forte@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">85</td>
+                        <td class="tg-0lax">Henry</td>
+                        <td class="tg-0lax">Rick Rehm</td>
+                        <td class="tg-0lax">(334)261-0513</td>
+                        <td class="tg-0lax"><a href="mailto:rrehm46@gmail.com">rrehm46@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">85</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">Rick Rehm</td>
+                        <td class="tg-0lax">(334)261-0513</td>
+                        <td class="tg-0lax"><a href="mailto:rrehm46@gmail.com">rrehm46@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">86</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">Paul W. Lee</td>
+                        <td class="tg-0lax">(334)261-0488</td>
+                        <td class="tg-0lax"><a href="mailto:pleed86@gmail.com">pleed86@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">87</td>
+                        <td class="tg-0lax">Geneva</td>
+                        <td class="tg-0lax">Jeff Sorrells</td>
+                        <td class="tg-0lax">(334)261-0542</td>
+                        <td class="tg-0lax"><a href="mailto:jeffs@fnbhartford.com">jeffs@fnbhartford.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">87</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">Jeff Sorrells</td>
+                        <td class="tg-0lax">(334)261-0542</td>
+                        <td class="tg-0lax"><a href="mailto:jeffs@fnbhartford.com">jeffs@fnbhartford.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">88</td>
+                        <td class="tg-0lax">Autauga</td>
+                        <td class="tg-0lax">Jerry Starnes</td>
+                        <td class="tg-0lax">(334)261-0499</td>
+                        <td class="tg-0lax"><a href="mailto:jerry.starnes@alhouse.gov">jerry.starnes@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">88</td>
+                        <td class="tg-0lax">Elmore</td>
+                        <td class="tg-0lax">Jerry Starnes</td>
+                        <td class="tg-0lax">(334)261-0499</td>
+                        <td class="tg-0lax"><a href="mailto:jerry.starnes@alhouse.gov">jerry.starnes@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">89</td>
+                        <td class="tg-0lax">Dale</td>
+                        <td class="tg-0lax">Marcus Paramore</td>
+                        <td class="tg-0lax">(334)261-0593</td>
+                        <td class="tg-0lax"><a href="mailto:marcusforhouse@gmail.com">marcusforhouse@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">89</td>
+                        <td class="tg-0lax">Pike</td>
+                        <td class="tg-0lax">Marcus Paramore</td>
+                        <td class="tg-0lax">(334)261-0593</td>
+                        <td class="tg-0lax"><a href="mailto:marcusforhouse@gmail.com">marcusforhouse@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">90</td>
+                        <td class="tg-0lax">Butler</td>
+                        <td class="tg-0lax">Chris Sells</td>
+                        <td class="tg-0lax">(334)261-0568</td>
+                        <td class="tg-0lax"><a href="mailto:repcsells@gmail.com">repcsells@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">90</td>
+                        <td class="tg-0lax">Coffee</td>
+                        <td class="tg-0lax">Chris Sells</td>
+                        <td class="tg-0lax">(334)261-0568</td>
+                        <td class="tg-0lax"><a href="mailto:repcsells@gmail.com">repcsells@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">90</td>
+                        <td class="tg-0lax">Conecuh</td>
+                        <td class="tg-0lax">Chris Sells</td>
+                        <td class="tg-0lax">(334)261-0568</td>
+                        <td class="tg-0lax"><a href="mailto:repcsells@gmail.com">repcsells@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">90</td>
+                        <td class="tg-0lax">Crenshaw</td>
+                        <td class="tg-0lax">Chris Sells</td>
+                        <td class="tg-0lax">(334)261-0568</td>
+                        <td class="tg-0lax"><a href="mailto:repcsells@gmail.com">repcsells@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">90</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Chris Sells</td>
+                        <td class="tg-0lax">(334)261-0568</td>
+                        <td class="tg-0lax"><a href="mailto:repcsells@gmail.com">repcsells@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">91</td>
+                        <td class="tg-0lax">Coffee</td>
+                        <td class="tg-0lax">Rhett Marques</td>
+                        <td class="tg-0lax">(334)261-0473</td>
+                        <td class="tg-0lax"><a href="mailto:rhett.marques@alhouse.gov">rhett.marques@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">92</td>
+                        <td class="tg-0lax">Coffee</td>
+                        <td class="tg-0lax">Matthew Hammett</td>
+                        <td class="tg-0lax">(334)261-0421</td>
+                        <td class="tg-0lax"><a href="mailto:matthew.hammett@alhouse.gov">matthew.hammett@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">92</td>
+                        <td class="tg-0lax">Covington</td>
+                        <td class="tg-0lax">Matthew Hammett</td>
+                        <td class="tg-0lax">(334)261-0421</td>
+                        <td class="tg-0lax"><a href="mailto:matthew.hammett@alhouse.gov">matthew.hammett@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">92</td>
+                        <td class="tg-0lax">Escambia</td>
+                        <td class="tg-0lax">Matthew Hammett</td>
+                        <td class="tg-0lax">(334)261-0421</td>
+                        <td class="tg-0lax"><a href="mailto:matthew.hammett@alhouse.gov">matthew.hammett@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">93</td>
+                        <td class="tg-0lax">Dale</td>
+                        <td class="tg-0lax">Steve Clouse</td>
+                        <td class="tg-0lax">(334)261-0488</td>
+                        <td class="tg-0lax"><a href="mailto:steve.clouse@alhouse.gov">steve.clouse@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">93</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">Steve Clouse</td>
+                        <td class="tg-0lax">(334)261-0488</td>
+                        <td class="tg-0lax"><a href="mailto:steve.clouse@alhouse.gov">steve.clouse@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">94</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Jennifer Fidler</td>
+                        <td class="tg-0lax">(334)261-0409</td>
+                        <td class="tg-0lax"><a href="mailto:jennifer.fidler@alhouse.gov">jennifer.fidler@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">95</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Frances Holk-Jones</td>
+                        <td class="tg-0lax">(334)261-0523</td>
+                        <td class="tg-0lax"><a href="mailto:frances.holk-jones@alhouse.gov">frances.holk-jones@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">96</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Matt Simpson</td>
+                        <td class="tg-0lax">(334)261-0424</td>
+                        <td class="tg-0lax"><a href="mailto:MattSimpsonAL96@gmail.com">MattSimpsonAL96@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">97</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Adline Clark</td>
+                        <td class="tg-0lax">(334)261-0549</td>
+                        <td class="tg-0lax"><a href="mailto:adline.clarke@alhouse.gov">adline.clarke@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">98</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Napoleon Bracy</td>
+                        <td class="tg-0lax">(334)261-0556</td>
+                        <td class="tg-0lax"><a href="mailto:napoleon@napoleonbracy.com">napoleon@napoleonbracy.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">99</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Sam Jones</td>
+                        <td class="tg-0lax">(334)261-0963</td>
+                        <td class="tg-0lax"><a href="mailto:SLJones@ballhealth.com">SLJones@ballhealth.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">100</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Mark Shirey</td>
+                        <td class="tg-0lax">(334)261-0563</td>
+                        <td class="tg-0lax"><a href="mailto:mark.shirey@alhouse.gov">mark.shirey@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">101</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Chris Pringle</td>
+                        <td class="tg-0lax">(334)261-0489</td>
+                        <td class="tg-0lax"><a href="mailto:chris.pringle@alhouse.gov">chris.pringle@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">102</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Shane Stringer</td>
+                        <td class="tg-0lax">(334)261-0594</td>
+                        <td class="tg-0lax"><a href="mailto:shane.stringer@alhouse.gov">shane.stringer@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">102</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Shane Stringer</td>
+                        <td class="tg-0lax">(334)261-0594</td>
+                        <td class="tg-0lax"><a href="mailto:shane.stringer@alhouse.gov">shane.stringer@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">103</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Barbara Drummond</td>
+                        <td class="tg-0lax">(334)261-0564</td>
+                        <td class="tg-0lax"><a href="mailto:drummondbarbara@att.net">drummondbarbara@att.net</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">104</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Margie Wilcox</td>
+                        <td class="tg-0lax">(334)261-0577</td>
+                        <td class="tg-0lax"><a href="mailto:margie.wilcox@alhouse.gov">margie.wilcox@alhouse.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">105</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Chip Brown</td>
+                        <td class="tg-0lax">(334)261-0447</td>
+                        <td class="tg-0lax"><a href="mailto:chip.brown@alhouse.gov">chip.brown@alhouse.gov</a></td>
+                        </tr>
+                    </tbody></table>
+
+                <h4>Alabama State-Level Senate District Map (As of November, 2022)</h4>
+                    <img src="https://cms.alison.legislature.state.al.us/uploads/2021_Alabama_Senate_Plan_a1f4012798.PNG"><br><br>
+                    <input type="text" id="senate_search" onkeyup="SearchSenate()" placeholder="Search by district or county...">
+                    <table class="tg" id="senate_table"><thead>
+                        <tr>
+                        <th class="tg-0lax">District</th>
+                        <th class="tg-0lax">County</th>
+                        <th class="tg-0lax">Name</th>
+                        <th class="tg-0lax">Number</th>
+                        <th class="tg-0lax">Email</th>
+                        </tr></thead>
+                    <tbody>
+                        <tr>
+                        <td class="tg-0lax">1</td>
+                        <td class="tg-0lax">Lauderdale</td>
+                        <td class="tg-0lax">Tim Melson</td>
+                        <td class="tg-0lax">(334)261-0888</td>
+                        <td class="tg-0lax"><a href="mailto:tim.melson@alsenate.gov">tim.melson@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">1</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Tim Melson</td>
+                        <td class="tg-0lax">(334)261-0888</td>
+                        <td class="tg-0lax"><a href="mailto:tim.melson@alsenate.gov">tim.melson@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">2</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Tom Butler</td>
+                        <td class="tg-0lax">(334)261-0884</td>
+                        <td class="tg-0lax"><a href="mailto:senbutler@aol.com">senbutler@aol.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">2</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Tom Butler</td>
+                        <td class="tg-0lax">(334)261-0884</td>
+                        <td class="tg-0lax"><a href="mailto:senbutler@aol.com">senbutler@aol.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Arthur Orr</td>
+                        <td class="tg-0lax">(334)261-0758</td>
+                        <td class="tg-0lax"><a href="mailto:arthur.orr@alsenate.gov">arthur.orr@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Arthur Orr</td>
+                        <td class="tg-0lax">(334)261-0758</td>
+                        <td class="tg-0lax"><a href="mailto:arthur.orr@alsenate.gov">arthur.orr@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">3</td>
+                        <td class="tg-0lax">Morgan</td>
+                        <td class="tg-0lax">Arthur Orr</td>
+                        <td class="tg-0lax">(334)261-0758</td>
+                        <td class="tg-0lax"><a href="mailto:arthur.orr@alsenate.gov">arthur.orr@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Cullman</td>
+                        <td class="tg-0lax">Garlan Gudger</td>
+                        <td class="tg-0lax">(334)261-0855</td>
+                        <td class="tg-0lax"><a href="mailto:garlan.gudger@alsenate.gov">garlan.gudger@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Marion</td>
+                        <td class="tg-0lax">Garlan Gudger</td>
+                        <td class="tg-0lax">(334)261-0855</td>
+                        <td class="tg-0lax"><a href="mailto:garlan.gudger@alsenate.gov">garlan.gudger@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">4</td>
+                        <td class="tg-0lax">Winston</td>
+                        <td class="tg-0lax">Garlan Gudger</td>
+                        <td class="tg-0lax">(334)261-0855</td>
+                        <td class="tg-0lax"><a href="mailto:garlan.gudger@alsenate.gov">garlan.gudger@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Fayette</td>
+                        <td class="tg-0lax">Greg Reed</td>
+                        <td class="tg-0lax">(334)261-0894</td>
+                        <td class="tg-0lax"><a href="mailto:greg.reed@alsenate.gov">greg.reed@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Greg Reed</td>
+                        <td class="tg-0lax">(334)261-0894</td>
+                        <td class="tg-0lax"><a href="mailto:greg.reed@alsenate.gov">greg.reed@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Lamar</td>
+                        <td class="tg-0lax">Greg Reed</td>
+                        <td class="tg-0lax">(334)261-0894</td>
+                        <td class="tg-0lax"><a href="mailto:greg.reed@alsenate.gov">greg.reed@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Greg Reed</td>
+                        <td class="tg-0lax">(334)261-0894</td>
+                        <td class="tg-0lax"><a href="mailto:greg.reed@alsenate.gov">greg.reed@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">5</td>
+                        <td class="tg-0lax">Walker</td>
+                        <td class="tg-0lax">Greg Reed</td>
+                        <td class="tg-0lax">(334)261-0894</td>
+                        <td class="tg-0lax"><a href="mailto:greg.reed@alsenate.gov">greg.reed@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Colbert</td>
+                        <td class="tg-0lax">Larry Stutts</td>
+                        <td class="tg-0lax">(334)261-0862</td>
+                        <td class="tg-0lax"><a href="mailto:larry.stutts@alsenate.gov">larry.stutts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Franklin</td>
+                        <td class="tg-0lax">Larry Stutts</td>
+                        <td class="tg-0lax">(334)261-0862</td>
+                        <td class="tg-0lax"><a href="mailto:larry.stutts@alsenate.gov">larry.stutts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Lawrence</td>
+                        <td class="tg-0lax">Larry Stutts</td>
+                        <td class="tg-0lax">(334)261-0862</td>
+                        <td class="tg-0lax"><a href="mailto:larry.stutts@alsenate.gov">larry.stutts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">6</td>
+                        <td class="tg-0lax">Limestone</td>
+                        <td class="tg-0lax">Larry Stutts</td>
+                        <td class="tg-0lax">(334)261-0862</td>
+                        <td class="tg-0lax"><a href="mailto:larry.stutts@alsenate.gov">larry.stutts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">7</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Sam Givhan</td>
+                        <td class="tg-0lax">(334)261-0867</td>
+                        <td class="tg-0lax"><a href="mailto:sam.givhan@alsenate.gov">sam.givhan@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">8</td>
+                        <td class="tg-0lax">DeKalb</td>
+                        <td class="tg-0lax">Steve Livingston</td>
+                        <td class="tg-0lax">(334)261-0858</td>
+                        <td class="tg-0lax"><a href="mailto:steve.livingston@alsenate.gov">steve.livingston@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">8</td>
+                        <td class="tg-0lax">Jackson</td>
+                        <td class="tg-0lax">Steve Livingston</td>
+                        <td class="tg-0lax">(334)261-0858</td>
+                        <td class="tg-0lax"><a href="mailto:steve.livingston@alsenate.gov">steve.livingston@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">8</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Steve Livingston</td>
+                        <td class="tg-0lax">(334)261-0858</td>
+                        <td class="tg-0lax"><a href="mailto:steve.livingston@alsenate.gov">steve.livingston@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">9</td>
+                        <td class="tg-0lax">Blount</td>
+                        <td class="tg-0lax">Wes Kitchens</td>
+                        <td class="tg-0lax">(256)582-0619</td>
+                        <td class="tg-0lax"><a href="mailto:wes.kitchens@alsenate.gov">wes.kitchens@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">9</td>
+                        <td class="tg-0lax">Madison</td>
+                        <td class="tg-0lax">Wes Kitchens</td>
+                        <td class="tg-0lax">(256)582-0619</td>
+                        <td class="tg-0lax"><a href="mailto:wes.kitchens@alsenate.gov">wes.kitchens@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">9</td>
+                        <td class="tg-0lax">Marshall</td>
+                        <td class="tg-0lax">Wes Kitchens</td>
+                        <td class="tg-0lax">(256)582-0619</td>
+                        <td class="tg-0lax"><a href="mailto:wes.kitchens@alsenate.gov">wes.kitchens@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">10</td>
+                        <td class="tg-0lax">Cherokee</td>
+                        <td class="tg-0lax">Andrew Jones</td>
+                        <td class="tg-0lax">(334)261-0857</td>
+                        <td class="tg-0lax"><a href="mailto:andrew.jones@alsenate.gov">andrew.jones@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">10</td>
+                        <td class="tg-0lax">DeKalb</td>
+                        <td class="tg-0lax">Andrew Jones</td>
+                        <td class="tg-0lax">(334)261-0857</td>
+                        <td class="tg-0lax"><a href="mailto:andrew.jones@alsenate.gov">andrew.jones@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">10</td>
+                        <td class="tg-0lax">Etowah</td>
+                        <td class="tg-0lax">Andrew Jones</td>
+                        <td class="tg-0lax">(334)261-0857</td>
+                        <td class="tg-0lax"><a href="mailto:andrew.jones@alsenate.gov">andrew.jones@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">11</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Lance Bell</td>
+                        <td class="tg-0lax">(334)261-0789</td>
+                        <td class="tg-0lax"><a href="mailto:lance.bell@alsenate.gov">lance.bell@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">11</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Lance Bell</td>
+                        <td class="tg-0lax">(334)261-0789</td>
+                        <td class="tg-0lax"><a href="mailto:lance.bell@alsenate.gov">lance.bell@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">11</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Lance Bell</td>
+                        <td class="tg-0lax">(334)261-0789</td>
+                        <td class="tg-0lax"><a href="mailto:lance.bell@alsenate.gov">lance.bell@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">12</td>
+                        <td class="tg-0lax">Calhoun</td>
+                        <td class="tg-0lax">Keith Kelley</td>
+                        <td class="tg-0lax">(334)261-0846</td>
+                        <td class="tg-0lax"><a href="mailto:keith.kelley@alsenate.gov">keith.kelley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">12</td>
+                        <td class="tg-0lax">Talladega</td>
+                        <td class="tg-0lax">Keith Kelley</td>
+                        <td class="tg-0lax">(334)261-0846</td>
+                        <td class="tg-0lax"><a href="mailto:keith.kelley@alsenate.gov">keith.kelley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Chambers</td>
+                        <td class="tg-0lax">Randy Price</td>
+                        <td class="tg-0lax">(334)261-0874</td>
+                        <td class="tg-0lax"><a href="mailto:randyprice.sd13@gmail.com">randyprice.sd13@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Clay</td>
+                        <td class="tg-0lax">Randy Price</td>
+                        <td class="tg-0lax">(334)261-0874</td>
+                        <td class="tg-0lax"><a href="mailto:randyprice.sd13@gmail.com">randyprice.sd13@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Cleburne</td>
+                        <td class="tg-0lax">Randy Price</td>
+                        <td class="tg-0lax">(334)261-0874</td>
+                        <td class="tg-0lax"><a href="mailto:randyprice.sd13@gmail.com">randyprice.sd13@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Randy Price</td>
+                        <td class="tg-0lax">(334)261-0874</td>
+                        <td class="tg-0lax"><a href="mailto:randyprice.sd13@gmail.com">randyprice.sd13@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">13</td>
+                        <td class="tg-0lax">Randolph</td>
+                        <td class="tg-0lax">Randy Price</td>
+                        <td class="tg-0lax">(334)261-0874</td>
+                        <td class="tg-0lax"><a href="mailto:randyprice.sd13@gmail.com">randyprice.sd13@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Bibb</td>
+                        <td class="tg-0lax">April Weaver</td>
+                        <td class="tg-0lax">(334)261-0886</td>
+                        <td class="tg-0lax"><a href="mailto:april.weaver@alsenate.gov">april.weaver@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Chilton</td>
+                        <td class="tg-0lax">April Weaver</td>
+                        <td class="tg-0lax">(334)261-0886</td>
+                        <td class="tg-0lax"><a href="mailto:april.weaver@alsenate.gov">april.weaver@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">14</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">April Weaver</td>
+                        <td class="tg-0lax">(334)261-0886</td>
+                        <td class="tg-0lax"><a href="mailto:april.weaver@alsenate.gov">april.weaver@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">15</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Dan Roberts</td>
+                        <td class="tg-0lax">(334)261-0851</td>
+                        <td class="tg-0lax"><a href="mailto:dan.roberts@alsenate.gov">dan.roberts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">15</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">Dan Roberts</td>
+                        <td class="tg-0lax">(334)261-0851</td>
+                        <td class="tg-0lax"><a href="mailto:dan.roberts@alsenate.gov">dan.roberts@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">16</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">J. T. 'Jabo' Waggoner</td>
+                        <td class="tg-0lax">(334)261-0892</td>
+                        <td class="tg-0lax"><a href="mailto:jabo.waggoner@alsenate.gov">jabo.waggoner@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">16</td>
+                        <td class="tg-0lax">Shelby</td>
+                        <td class="tg-0lax">J. T. 'Jabo' Waggoner</td>
+                        <td class="tg-0lax">(334)261-0892</td>
+                        <td class="tg-0lax"><a href="mailto:jabo.waggoner@alsenate.gov">jabo.waggoner@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">Blount</td>
+                        <td class="tg-0lax">Shay Shelnutt</td>
+                        <td class="tg-0lax">(334)261-0794</td>
+                        <td class="tg-0lax"><a href="mailto:shay.sd17@gmail.com">shay.sd17@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Shay Shelnutt</td>
+                        <td class="tg-0lax">(334)261-0794</td>
+                        <td class="tg-0lax"><a href="mailto:shay.sd17@gmail.com">shay.sd17@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">17</td>
+                        <td class="tg-0lax">St. Clair</td>
+                        <td class="tg-0lax">Shay Shelnutt</td>
+                        <td class="tg-0lax">(334)261-0794</td>
+                        <td class="tg-0lax"><a href="mailto:shay.sd17@gmail.com">shay.sd17@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">18</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Rodger M. Smitherman</td>
+                        <td class="tg-0lax">(334)261-0870</td>
+                        <td class="tg-0lax"><a href="mailto:rodger.smitherman@alsenate.gov">rodger.smitherman@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">19</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Merika Coleman</td>
+                        <td class="tg-0lax">(334)261-0793</td>
+                        <td class="tg-0lax"><a href="mailto:merika.coleman@alsenate.gov">merika.coleman@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">20</td>
+                        <td class="tg-0lax">Jefferson</td>
+                        <td class="tg-0lax">Linda Coleman-Madison</td>
+                        <td class="tg-0lax">(334)261-0864</td>
+                        <td class="tg-0lax"><a href="mailto:lcolemanmadison926@yahoo.com">lcolemanmadison926@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">21</td>
+                        <td class="tg-0lax">Pickens</td>
+                        <td class="tg-0lax">Gerald H. Allen</td>
+                        <td class="tg-0lax">(334)261-0889</td>
+                        <td class="tg-0lax"><a href="mailto:gerald.allen@alsenate.gov">gerald.allen@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">21</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Gerald H. Allen</td>
+                        <td class="tg-0lax">(334)261-0889</td>
+                        <td class="tg-0lax"><a href="mailto:gerald.allen@alsenate.gov">gerald.allen@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Greg Albritton</td>
+                        <td class="tg-0lax">(334)261-0843</td>
+                        <td class="tg-0lax"><a href="mailto:gregalbrittonsenate22@gmail.com">gregalbrittonsenate22@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Escambia</td>
+                        <td class="tg-0lax">Greg Albritton</td>
+                        <td class="tg-0lax">(334)261-0843</td>
+                        <td class="tg-0lax"><a href="mailto:gregalbrittonsenate22@gmail.com">gregalbrittonsenate22@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Greg Albritton</td>
+                        <td class="tg-0lax">(334)261-0843</td>
+                        <td class="tg-0lax"><a href="mailto:gregalbrittonsenate22@gmail.com">gregalbrittonsenate22@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">22</td>
+                        <td class="tg-0lax">Washington</td>
+                        <td class="tg-0lax">Greg Albritton</td>
+                        <td class="tg-0lax">(334)261-0843</td>
+                        <td class="tg-0lax"><a href="mailto:gregalbrittonsenate22@gmail.com">gregalbrittonsenate22@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Butler</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Clarke</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Conecuh</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Dallas</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Lowndes</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Monroe</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Perry</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">23</td>
+                        <td class="tg-0lax">Wilcox</td>
+                        <td class="tg-0lax">Robert Stewart</td>
+                        <td class="tg-0lax">(334)261-0860</td>
+                        <td class="tg-0lax"><a href="mailto:robert.stewart@alsenate.gov">robert.stewart@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Choctaw</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Greene</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Hale</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Marengo</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Sumter</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">24</td>
+                        <td class="tg-0lax">Tuscaloosa</td>
+                        <td class="tg-0lax">Bobby D. Singleton</td>
+                        <td class="tg-0lax">(334)261-0335</td>
+                        <td class="tg-0lax"><a href="mailto:bsingle362@gmail.com">bsingle362@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">25</td>
+                        <td class="tg-0lax">Crenshaw</td>
+                        <td class="tg-0lax">Will Barfoot</td>
+                        <td class="tg-0lax">(334)261-0895</td>
+                        <td class="tg-0lax"><a href="mailto:will.barfoot@alsenate.gov">will.barfoot@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">25</td>
+                        <td class="tg-0lax">Elmore</td>
+                        <td class="tg-0lax">Will Barfoot</td>
+                        <td class="tg-0lax">(334)261-0895</td>
+                        <td class="tg-0lax"><a href="mailto:will.barfoot@alsenate.gov">will.barfoot@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">25</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Will Barfoot</td>
+                        <td class="tg-0lax">(334)261-0895</td>
+                        <td class="tg-0lax"><a href="mailto:will.barfoot@alsenate.gov">will.barfoot@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">26</td>
+                        <td class="tg-0lax">Montgomery</td>
+                        <td class="tg-0lax">Kirk Hatcher</td>
+                        <td class="tg-0lax">(334)261-9001</td>
+                        <td class="tg-0lax"><a href="mailto:kirk.hatcher@alsenate.gov">kirk.hatcher@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">27</td>
+                        <td class="tg-0lax">Lee</td>
+                        <td class="tg-0lax">Jay Hovey</td>
+                        <td class="tg-0lax">(334)261-0865</td>
+                        <td class="tg-0lax"><a href="mailto:jay.hovey@alsenate.gov">jay.hovey@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">27</td>
+                        <td class="tg-0lax">Russell</td>
+                        <td class="tg-0lax">Jay Hovey</td>
+                        <td class="tg-0lax">(334)261-0865</td>
+                        <td class="tg-0lax"><a href="mailto:jay.hovey@alsenate.gov">jay.hovey@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">27</td>
+                        <td class="tg-0lax">Tallapoosa</td>
+                        <td class="tg-0lax">Jay Hovey</td>
+                        <td class="tg-0lax">(334)261-0865</td>
+                        <td class="tg-0lax"><a href="mailto:jay.hovey@alsenate.gov">jay.hovey@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Barbour</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Bullock</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Henry</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Macon</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">28</td>
+                        <td class="tg-0lax">Russell</td>
+                        <td class="tg-0lax">William M. Beasley</td>
+                        <td class="tg-0lax">(334)261-0868</td>
+                        <td class="tg-0lax"><a href="mailto:billy.beasley@alsenate.gov">billy.beasley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">29</td>
+                        <td class="tg-0lax">Dale</td>
+                        <td class="tg-0lax">Donnie Chesteen</td>
+                        <td class="tg-0lax">(334)261-0879</td>
+                        <td class="tg-0lax"><a href="mailto:donnie.chesteen@alsenate.gov">donnie.chesteen@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">29</td>
+                        <td class="tg-0lax">Geneva</td>
+                        <td class="tg-0lax">Donnie Chesteen</td>
+                        <td class="tg-0lax">(334)261-0879</td>
+                        <td class="tg-0lax"><a href="mailto:donnie.chesteen@alsenate.gov">donnie.chesteen@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">29</td>
+                        <td class="tg-0lax">Houston</td>
+                        <td class="tg-0lax">Donnie Chesteen</td>
+                        <td class="tg-0lax">(334)261-0879</td>
+                        <td class="tg-0lax"><a href="mailto:donnie.chesteen@alsenate.gov">donnie.chesteen@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Autauga</td>
+                        <td class="tg-0lax">Clyde Chambliss</td>
+                        <td class="tg-0lax">(334)261-0872</td>
+                        <td class="tg-0lax"><a href="mailto:clyde.chambliss@alsenate.gov">clyde.chambliss@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Chilton</td>
+                        <td class="tg-0lax">Clyde Chambliss</td>
+                        <td class="tg-0lax">(334)261-0872</td>
+                        <td class="tg-0lax"><a href="mailto:clyde.chambliss@alsenate.gov">clyde.chambliss@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Coosa</td>
+                        <td class="tg-0lax">Clyde Chambliss</td>
+                        <td class="tg-0lax">(334)261-0872</td>
+                        <td class="tg-0lax"><a href="mailto:clyde.chambliss@alsenate.gov">clyde.chambliss@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Elmore</td>
+                        <td class="tg-0lax">Clyde Chambliss</td>
+                        <td class="tg-0lax">(334)261-0872</td>
+                        <td class="tg-0lax"><a href="mailto:clyde.chambliss@alsenate.gov">clyde.chambliss@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">30</td>
+                        <td class="tg-0lax">Tallapoosa</td>
+                        <td class="tg-0lax">Clyde Chambliss</td>
+                        <td class="tg-0lax">(334)261-0872</td>
+                        <td class="tg-0lax"><a href="mailto:clyde.chambliss@alsenate.gov">clyde.chambliss@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">31</td>
+                        <td class="tg-0lax">Coffee</td>
+                        <td class="tg-0lax">Josh Carnley</td>
+                        <td class="tg-0lax">(334)261-0845</td>
+                        <td class="tg-0lax"><a href="mailto:josh.carnley@alsenate.gov">josh.carnley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">31</td>
+                        <td class="tg-0lax">Covington</td>
+                        <td class="tg-0lax">Josh Carnley</td>
+                        <td class="tg-0lax">(334)261-0845</td>
+                        <td class="tg-0lax"><a href="mailto:josh.carnley@alsenate.gov">josh.carnley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">31</td>
+                        <td class="tg-0lax">Dale</td>
+                        <td class="tg-0lax">Josh Carnley</td>
+                        <td class="tg-0lax">(334)261-0845</td>
+                        <td class="tg-0lax"><a href="mailto:josh.carnley@alsenate.gov">josh.carnley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">31</td>
+                        <td class="tg-0lax">Pike</td>
+                        <td class="tg-0lax">Josh Carnley</td>
+                        <td class="tg-0lax">(334)261-0845</td>
+                        <td class="tg-0lax"><a href="mailto:josh.carnley@alsenate.gov">josh.carnley@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">32</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Chris Elliot</td>
+                        <td class="tg-0lax">(334)261-0897</td>
+                        <td class="tg-0lax"><a href="mailto:chris.elliott@alsenate.gov">chris.elliott@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">33</td>
+                        <td class="tg-0lax">Baldwin</td>
+                        <td class="tg-0lax">Vivian Davis Figures</td>
+                        <td class="tg-0lax">(334)261-0871</td>
+                        <td class="tg-0lax"><a href="mailto:vivian.figures@alsenate.gov">vivian.figures@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">33</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Vivian Davis Figures</td>
+                        <td class="tg-0lax">(334)261-0871</td>
+                        <td class="tg-0lax"><a href="mailto:vivian.figures@alsenate.gov">vivian.figures@alsenate.gov</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">34</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">Jack W. Williams</td>
+                        <td class="tg-0lax">(334)261-0829</td>
+                        <td class="tg-0lax"><a href="mailto:jackwilliams55@icloud.com">jackwilliams55@icloud.com</a></td>
+                        </tr>
+                        <tr>
+                        <td class="tg-0lax">35</td>
+                        <td class="tg-0lax">Mobile</td>
+                        <td class="tg-0lax">David Sessions</td>
+                        <td class="tg-0lax">(334)261-0882</td>
+                        <td class="tg-0lax"><a href="mailto:d.r.sessions@att.net">d.r.sessions@att.net</a></td>
+                        </tr>
+                    </tbody></table>
+
+    </body>
+</html>
